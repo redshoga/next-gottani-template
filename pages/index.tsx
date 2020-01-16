@@ -4,7 +4,7 @@ import { Button } from "../components/Button/Button";
 const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
   <h1>
     Hello world! - user agent: {userAgent}
-    <Button>button</Button>
+    <Button>hello</Button>
   </h1>
 );
 
